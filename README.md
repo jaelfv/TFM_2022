@@ -14,6 +14,7 @@ Second, a data-driven approach where we use gradient boosting on decision trees 
 
 Apart from prediction activities, we also revise our results trying to find the optimal price through optimization. The study allows us to reveal the advantages of gradient boosting on decision trees over our custom model, as well as its limitations during the optimization part.
 
+The [Report](https://github.com/jaelfv/TFM_2022/blob/main/Demand_modelling_and_prediction_in_retail.pdf) related to this study can be found in pdf format. 
 
 ## Implemented tricks and techniques
 Within this study we have used several techniques and tricks:
@@ -32,15 +33,15 @@ Within this study we have used several techniques and tricks:
 
 
 ## Notebooks
-- [Data_cleaning_H](): Contains the code for cleaning the H dataset, the analysis and the clustering study performed.
-- [Dataset merge](): Merge of the H dataset with the Google trends datasets.
-- [Basic Custom Model](): Contains the Basic Model.
-- [Enhanced Custom Model](): Contains the final FAM and Enhanced learning method.
-- [Visualization_loss_model](): Notebook for displaying results from Custom Model.
-- [CATBOOST_CustomModel](): Comparison of Custom Model with CatBoost for ShoeCare products.
+- [Data_cleaning_H](https://github.com/jaelfv/TFM_2022/blob/main/Notebooks/Data_cleaning_H.ipynb): Contains the code for cleaning the H dataset, the analysis and the clustering study performed.
+- [Dataset merge](https://github.com/jaelfv/TFM_2022/blob/main/Notebooks/DatasetMerge.ipynb): Merge of the H dataset with the Google trends datasets.
+- [Basic Custom Model](https://github.com/jaelfv/TFM_2022/blob/main/Notebooks/Basic%20Custom%20Model.ipynb): Contains the Basic Model.
+- [Enhanced Custom Model](https://github.com/jaelfv/TFM_2022/blob/main/Notebooks/Enhanced%20Custom%20Model.ipynb): Contains the final FAM and Enhanced learning method.
+- [Visualization_loss_model](https://github.com/jaelfv/TFM_2022/blob/main/Notebooks/Visualization_loss_model.ipynb): Notebook for displaying results from Custom Model.
+- [CATBOOST_CustomModel](https://github.com/jaelfv/TFM_2022/blob/main/Notebooks/CATBOOST_CustomModel.ipynb): Comparison of Custom Model with CatBoost for ShoeCare products.
 - [CATBOOST_ROVA_GTX](): Comparison of CatBoost and linear regression for Womans Goretex
-- [Explainability_CatBoost](): Section where we study the explainbility for CatBoost.
-- [DemandMatrix](): Demand matrix checks for CatBoost and FAM.
+- [Explainability_CatBoost](https://github.com/jaelfv/TFM_2022/blob/main/Notebooks/Explainability_CatBoost.ipynb): Section where we study the explainbility for CatBoost.
+- [DemandMatrix](https://github.com/jaelfv/TFM_2022/blob/main/Notebooks/DemandMatrix.ipynb): Demand matrix checks for CatBoost and FAM.
 
 
 ## BibTex reference format for citation for the Code
@@ -58,10 +59,11 @@ author={Jael Freixanet},
 ```
 @misc{TMFjfReport,
 title={Demand modelling and prediction in retail},
-url={},
+url={https://github.com/jaelfv/TFM_2022/blob/main/Demand_modelling_and_prediction_in_retail.pdf},
 note={Report of the Master's Thesis: Demand modelling and prediction in retail},
 author={Jael Freixanet},
   year={2022}
 }
 
 ```
+This work has been done by Jael Freixanet supervised by Jerónimo Hernández as part of the Thesis for the Master: Fundamental Principles of Data Science from Universitat de Barcelona. 
