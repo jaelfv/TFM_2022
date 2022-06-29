@@ -47,7 +47,7 @@ Within this study we have used several techniques and tricks:
 ```
 @misc{TFMjf,
 title={Demand modelling and prediction in retail},
-url={},
+url={https://github.com/jaelfv/TFM_2022},
 note={GitHub repository with a collection of Jupyter notebooks with relevant code used.},
 author={Jael Freixanet},
   year={2022}
